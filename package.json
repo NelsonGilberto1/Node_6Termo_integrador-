@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.2",
+    "tsx": "^4.23.15"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
+{
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "test": "jest"
+  }
+}
