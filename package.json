@@ -8,6 +8,20 @@
     "express": "^5.2.1"
   }
 }
+
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ComminJS",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strinct": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+}
+
 {
   "scripts": {
     "dev": "tsx watch src/app.ts",
